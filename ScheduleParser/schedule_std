@@ -1,0 +1,21 @@
+<td class="schedule_std"> 
+ <table class="inner" frame="void" rules="all"> 
+  <tbody>
+   <tr> 
+    <td class="schedule_half"> </td>
+   </tr>
+   <tr> 
+    <td class="schedule_half"> 
+     <div class="place_half">
+      лек 
+      <a class="a_style" href="?pid=533" target="_self">ГК 430</a>
+     </div>
+     <div class="subject_half" title="Параллельное программирование"> 
+      <p class="center_p">Парал. прогр.</p>
+     </div>
+     <div class="sp_half"> 
+      <a class="a_style" href="?tid=495" target="_self" title="доц. Михелев ВМ">доц. Михелев ВМ</a>
+     </div></td>
+   </tr>
+  </tbody>
+ </table></td>

@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2014, 10:36:06 PM
+    Author     : mahefa
+*/
+
+body {
+	background-image: url("/ScheduleAnalizer/image/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.transp {
+	opacity: 0.95;
+}
+
+.box {
+	background-color: #cccccc;
+	padding: 10px;
+	border-radius: 10px;	
+}
+
+#header {
+	padding: 25px;
+	background-color: #dddddd;
+	box-shadow: -5px 0px 10px gray, 5px 0px 10px gray;
+	margin: 0px -5px 30px -5px;
+	display: block;
+}
+
+#header img {
+	margin: -20px 0px 0px 30px;
+	float: left;
+}
+
+#body_wrap {
+	width: 1000px;
+	/* background-color: green; */
+	background-color: #eeeeee;
+	margin: 0 auto;
+	padding: 30px;
+	box-shadow: 5px 0px 50px gray, -5px 0px 20px gray;
+	min-height: 100%;
+	overflow: auto;
+	position: relative;
+}
+
+#top_menu {
+	margin: 10px 0px 10px 170px;
+	/* margin: 10px auto; */
+	width: 750px;
+	/*background-color: gray;*/
+}
+
+.tmenu_item a {
+	text-decoration: none;
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-shadow: 1px 0px black;
+	font-weight: bold;
+}
+
+.tmenu_item:hover {
+	background-color: #aaaaaa;
+}
+
+li.tmenu_item {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #dddddd;
+}
+
+#body_wrap span {
+	position: absolute;
+	left: 380px;
+	bottom: 0px;
+	/*background-color: white;*/
+	margin-top: 20px;
+	font-size: 12px;
+	font-family:  sans-serif;
+	text-align: center;
+}

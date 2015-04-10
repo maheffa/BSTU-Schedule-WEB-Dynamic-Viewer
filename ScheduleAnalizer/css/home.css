@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2014, 12:43:51 PM
+    Author     : mahefa
+*/
+
+#left_menu {
+	/*background-color: red;*/
+	float: left;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+#left_menu > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.lmenu_item {
+	display: block;
+	width: 150px;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+li.lmenu_item p {
+	margin: 3px;
+}
+
+li.lmenu_item select {
+	width: 100%;
+	height: 30px;
+	background: rgb(187, 187, 187);
+	padding: 5px; 
+	font-size: 14px;
+	line-height: 1;
+	border: 5px;
+	border-radius: 5px;
+	/*-webkit-appearance: none;*/
+}
+
+button#sub_get_scd {
+	box-shadow: 1px 1px 1px gray ;
+	width: 70%;
+	margin: 20px;
+}
+/*
+form#scd_type input {
+	width: 100%;
+	height: 100%;
+	display: block;
+}*/
+
+/*#schedule_tbl tr td {
+	width: 50px;
+}*/
+
+tr.scd_para {
+	/*background-color: gray;*/
+	height: 80px;
+}
+
+
+table#schedule_tbl {
+	width: 800px;
+	/*background-color: blue;*/
+	/* margin: 10px 50px 10px 10px; */
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	table-layout: fixed;
+}
+
+th:not(:first-child) {
+	background-color: black;
+	color: white;
+}
+
+.scd_para td div p {
+	margin: 0;
+	font-size: 12px;
+}
+
+.scd_para td div p:first-child{
+	/*font-weight: bold;*/
+	font-size: 20px;
+}
+
+.scd_para td div p:last-child {
+	font-style: italic;
+}
